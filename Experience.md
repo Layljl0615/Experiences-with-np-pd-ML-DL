@@ -1,4 +1,4 @@
-1，Return specifies the sequence number of the maximum value of the dimension
+1，torch.argmax()  #Return specifies the sequence number of the maximum value of the dimension
 ```
 import torch
 a=torch.tensor(
@@ -10,4 +10,8 @@ a=torch.tensor(
 b=torch.argmax(a,dim=0)
 print(b)
 print(a.shape)
+
+# Result
+tensor([1, 2, 0, 1])
+torch.Size([3, 4])
 ```
