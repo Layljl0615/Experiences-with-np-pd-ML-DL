@@ -1,7 +1,5 @@
 1，Return specifies the sequence number of the maximum value of the dimension
 ```
-> target = torch.argmax(yt, axis=1)
-```
 import torch
 a=torch.tensor(
               [
@@ -12,3 +10,4 @@ a=torch.tensor(
 b=torch.argmax(a,dim=0)
 print(b)
 print(a.shape)
+```
